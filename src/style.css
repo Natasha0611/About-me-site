@@ -23,8 +23,8 @@ h3{
     opacity: 0.7;
 }
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f8f7fb;
+    --primary-color: #35c0ca;
+    --secondary-color: #faffff;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .navigation-links{
@@ -35,7 +35,7 @@ h3{
     text-transform: capitalize;
  }
 .contact-link{
-    font-size: 16px;
+    font-size: 22px;
      padding: 20px 15px;
      margin: 20px;
      margin-top: 40px;
@@ -44,10 +44,10 @@ h3{
     border-radius: 4px;
     text-decoration: none;
     background-color: var(--secondary-color);
-    color:#6c63ff ;
+    color:var(--primary-color);
 }
 .about-link{
-    font-size: 16px;
+    font-size: 22px;
     padding: 20px 15px;
     margin: 20px;
     margin-top: 40px;
@@ -59,5 +59,42 @@ h3{
     box-shadow: var(--box-shadow);
     
 }
-
+p{
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 25px;
+    line-height: 1,5;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 122, 228);
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.link-back{
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 122, 228);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.about-paragraphs p{
+    margin: 10px;
+}
+.about-paragraphs {
+    margin: 30px 0;
+    display: flex;
+}
 
