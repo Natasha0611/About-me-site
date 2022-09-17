@@ -7,6 +7,7 @@ body {
 }
 .text-center{
     text-align: center !important;
+    margin: 0;
 }
 h2.text-center{
     padding-top: 100px;
@@ -24,11 +25,11 @@ h1.text-center-about{
     margin: 0 auto;
     text-align: center !important;
 }
-h3.text-center{
+h3.text-center-space{
     opacity: 0.7;
     font-size: 28px;
-    display: block;
-    margin: 0px auto;
+    line-height: 0px;
+    text-align: center !important;
 }
 p.home-content{
     display: block;
@@ -43,8 +44,8 @@ p {
     padding-top: 70px;
   }
 :root {
-    --primary-color: #041415;
-    --secondary-color: #fefdf7;
+    --primary-color:  rgb(62, 170, 192);
+    --secondary-color: white;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .navigation-links{
@@ -74,7 +75,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     border-radius: 4px;
     text-decoration: none;
-    color: rgb(242, 234, 10);
+    color: white;
     background-color: var(--primary-color);
     box-shadow: var(--box-shadow);
     
@@ -98,7 +99,7 @@ p.homepage{
 .link{
     display: flex;
     justify-content: center;
-    color: rgb(37, 23, 244);
+    color: c;
     text-decoration: none;
     font-size: 30px;
     cursor: pointer;
