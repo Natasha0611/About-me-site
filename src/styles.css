@@ -28,7 +28,7 @@ h1.text-center-about{
 h3.text-center-space{
     opacity: 0.7;
     font-size: 28px;
-    line-height: 0px;
+    line-height: 100%;
     text-align: center !important;
 }
 p.home-content{
