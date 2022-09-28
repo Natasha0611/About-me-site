@@ -155,7 +155,70 @@ p.homepage{
   .tech-skills-item-text {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 1,5;
     color: rgb(4, 1, 11);
+  }
+  
+ .main-content-title{
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 1,5;
+color: #000000;
+margin-bottom: 10px;
+}
+.my-work-experience-position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1,5;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.my-work-experience-time{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1,5;
+  color: #A8A8A8;
+  margin-bottom: 10px;
+}
+.my-work-experience{
+    color: #FB6D3A;
+}
+.my-work-experience-devider{
+    color: #000000;
+}
+.my-work-experience-list{
+    padding: 0 0 0 17px;
+  }
+  .my-work-experience-duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1,5;
+    color: #595959;  
+  }
+  .my-education-section{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1,5;
+    color: #000000;
+    margin-top: 0in;
+    margin-bottom: 0in;
+  }
+  .my-education-time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 5px;
+    color: #A8A8A8;
+  }
+  .education-list{
+     padding: 0 0 0 17px;
+  }
+  .my-education-experience {
+    color: #FB6D3A;
   }
