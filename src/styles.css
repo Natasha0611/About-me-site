@@ -5,7 +5,11 @@ body {
     margin-left: auto;
     
 }
-
+.hero{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 160 px 20px;
+}
 .text-center{
     text-align: center !important;
     margin: 0;
