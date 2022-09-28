@@ -159,7 +159,7 @@ p.homepage{
     padding-top: 40px;
 }
 .tech-skills-item {
-    color: #FB6D3A;
+    color: var(--primary-color);
   }
   .tech-skills-item-text {
     font-style: normal;
@@ -194,7 +194,7 @@ margin-bottom: 10px;
   margin-bottom: 10px;
 }
 .my-work-experience{
-    color: #FB6D3A;
+    color: var(--primary-color);
 }
 .my-work-experience-devider{
     color: #000000;
@@ -229,5 +229,5 @@ margin-bottom: 10px;
      padding: 0 0 0 17px;
   }
   .my-education-experience {
-    color: #FB6D3A;
+    color: var(--primary-color);
   }
