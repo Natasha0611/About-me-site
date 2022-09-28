@@ -231,3 +231,10 @@ margin-bottom: 10px;
   .my-education-experience {
     color: var(--primary-color);
   }
+  .contacts-section-link{
+    color: var(--primary-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  }
