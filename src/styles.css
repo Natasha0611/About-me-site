@@ -1,3 +1,9 @@
+:root {
+    --primary-color:  rgb(62, 170, 192);
+    --secondary-color: white;
+    --background-color:  rgb(243, 250, 251);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
 body {
     display: block;
@@ -6,7 +12,7 @@ body {
     
 }
 .hero{
-    background-color: rgb(243, 250, 251);
+    background-color: var(--background-color);
     text-align: center;
     padding: 260 px 20px;
 }
@@ -49,11 +55,7 @@ p {
     display: block;
     padding-top: 70px;
   }
-:root {
-    --primary-color:  rgb(62, 170, 192);
-    --secondary-color: white;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
+
 .navigation-links{
     display: flex;
     justify-content:center;
@@ -124,6 +126,9 @@ p.homepage{
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
+}
+.about{
+    background-color: var(--background-color);
 }
 .about-paragraphs p{
     margin: 10px;
