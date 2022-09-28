@@ -6,9 +6,9 @@ body {
     
 }
 .hero{
-    background-color: aquamarine;
+    background-color: rgb(184, 238, 241);
     text-align: center;
-    padding: 160 px 20px;
+    padding: 260 px 20px;
 }
 .text-center{
     text-align: center !important;
