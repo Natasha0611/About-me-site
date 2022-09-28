@@ -232,7 +232,8 @@ margin-bottom: 10px;
     color: var(--primary-color);
   }
   .contacts-section-link{
-    color: var(--primary-color);
+  color: var(--primary-color);
+  text-align: center;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
