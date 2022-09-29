@@ -3,13 +3,15 @@
     --secondary-color: white;
     --background-color:  rgb(243, 250, 251);
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --font-family: font-family: 'Poppins', sans-serif;
+    --font-family:'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
 }
 
 body {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    font-family: var(--default-font-family);
     
 }
 .hero{
@@ -47,6 +49,7 @@ h3.text-center-space{
 p.home-content{
     display: block;
     margin-left: 0px;
+    font-family: var(--font-family2);
 }
 p {
     font-size: 18px;
@@ -96,18 +99,6 @@ p {
     box-shadow: var(--box-shadow);
     
 }
-p{
-    display: inline-block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-p{
-    font-size: 25px;
-    line-height: 1,5;
-    text-align: center;
-}
 p.homepage{
     text-align: left;
     font-style: normal;
@@ -115,8 +106,13 @@ p.homepage{
     line-height: 1,5;
     color: #000000;
     margin-bottom: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--default-font-family);
 
+}
+p.aboutpage{
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-size: 30px;
 }
 .link{
     display: flex;
@@ -195,9 +191,8 @@ margin-bottom: 10px;
 .my-work-experience-time{
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 1,5;
-  color: #A8A8A8;
+  font-size: 15px;
+  color: #808080;
   margin-bottom: 10px;
 }
 .my-work-experience{
@@ -220,7 +215,6 @@ margin-bottom: 10px;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    line-height: 1,5;
     color: #000000;
     margin-top: 0in;
     margin-bottom: 0in;
@@ -229,7 +223,6 @@ margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 5px;
     color: #A8A8A8;
   }
   .education-list{
@@ -251,4 +244,7 @@ margin-bottom: 10px;
     color: rgb(23, 55, 57);
     display: flex;
     justify-content: center;
+  }
+  .left-side{
+    background-color: var(--primary-color);
   }
