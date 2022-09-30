@@ -17,7 +17,7 @@ body {
 .hero{
     background-color: var(--background-color);
     text-align: center;
-    padding: 260 px 20px;
+    padding: 260px 20px;
 }
 .text-center{
     text-align: center !important;
@@ -86,6 +86,7 @@ p {
     margin: 0 20px;
 }
 }
+
 .about-link{
     font-size: 22px;
     padding: 20px 15px;
