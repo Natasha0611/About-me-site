@@ -79,13 +79,33 @@ p {
     background-color: var(--secondary-color);
     color:var(--primary-color);
 }
-@media (max-width: 576px){
-.project-link {
-    display: block;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
     text-align: center;
-    margin: 0 20px;
+  }
+
+  .sidebar-section{
+    display: none;
+  }
+.about-me-description{
+  width: 400px;
 }
 }
+
 
 .about-link{
     font-size: 22px;
