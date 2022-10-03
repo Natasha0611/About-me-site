@@ -186,12 +186,13 @@ body.about {
     display: flex;
     flex-direction: row-reverse;
     width: 1400px;
-    background-color: #fff;
+    background-color: var(--secondary-color);
     margin:40px auto;
   }
   /* main content section */
   .main-content-section {
-    padding: 50px 90px;
+    padding: 40px 40px;
+    width:900px;
   }
   .main-content-title{
   font-style: normal;
@@ -291,8 +292,7 @@ body.about {
   /* sidebar section */
   .sidebar-section {
     background-color: var(--primary-color);
-    width: 370px;
-    padding: 40px 0;
+    max-width: 600px;
   }
   .contacts-section,
   .tech-skills-section,
