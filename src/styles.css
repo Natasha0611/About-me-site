@@ -101,8 +101,9 @@ p {
   .sidebar-section{
     display: none;
   }
-.about-me-description{
-  width: 400px;
+.main-content-section{
+  margin-right: 900px;
+  width: 1000px ;
 }
 }
 
