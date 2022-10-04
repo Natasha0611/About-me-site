@@ -339,3 +339,15 @@ body.about {
     line-height: 24px;
     color: #fff;
   }
+  .contacts{
+    background-color: var(--primary-color);
+    margin: 200px 40px;
+    text-align: center;
+  }
+  .h1-contacts{
+    color: rgb(246, 244, 244);
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 1.5;
+  }
