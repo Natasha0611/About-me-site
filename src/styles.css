@@ -89,7 +89,9 @@ p {
     font-size: 44px;
   }
 
-  .hero {
+  .hero,
+  .main-content-section,
+  .mobile-nav {
     padding: 80px 20px;
   }
 
@@ -101,10 +103,6 @@ p {
   .sidebar-section{
     display: none;
   }
-.main-content-section{
-  margin-right: 900px;
-  width: 1000px ;
-}
 }
 
 
