@@ -94,7 +94,53 @@
   .project-desciption {
     padding: 120px 60px;
   }
-  
+  img{
+    width: 470px;
+    border-radius: 5%;
+  }
+  h1.text-center{
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 1.5;
+  }
+  .projects{
+    padding: 100px 40px;
+  }
+  p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .about-projects{
+    background-color:  rgb(243, 250, 251);;
+  }
+  .logo{
+    max-width: 150px;
+  }
+  nav li{
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-right: 25px;
+  }
+  nav ul{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    padding: 20px 0;
+  }
+  nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+  }
+  nav a:hover,
+  nav li.active a{
+    color: var(--branding-color);
+  }
   @media (max-width: 900px) {
     h1 {
       font-size: 44px;
@@ -118,26 +164,4 @@
       padding: 0;
       text-align: center;
     }
-  }
-  img{
-    width: 470px;
-    border-radius: 5%;
-  }
-  h1.text-center{
-    color: black;
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 66px;
-    line-height: 1.5;
-  }
-  .projects{
-    padding: 100px 40px;
-  }
-  p{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .about-projects{
-    background-color:  rgb(243, 250, 251);;
   }
